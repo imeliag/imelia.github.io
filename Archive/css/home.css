@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900');
+
+
+nav a.logo {
+	margin-top: 4px;
+  margin-right: 30px;
+}
+
+
+section a{
+  font-family: 'lato', sans-serif;
+  color: white;
+  margin-left: 0px;
+}
+
+section img{
+  width: 190px;
+}
+
+header h4{
+  margin-top: 40px;
+  font-family: 'lato', sans-serif;
+}
+
+section h4{
+  font-family: 'lato', sans-serif;
+}
+
+section p{
+  font-family: 'lato', sans-serif;
+}
+
+section h3 {
+    font-family: 'lato', sans-serif;
+    position: relative;
+    z-index: 2;
+    width: calc(100% - 20px);
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+main header {
+	width: 100%;
+	height: 60vh;
+	white-space: nowrap;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+
+main header .each_head {
+	width: 90vw;
+	height: 100%;
+	border: 1px solid black;
+	display: inline-block;
+	/* if we're using float: left, it will still respect
+	the width of the parents hence not creating
+	the effect of going outside the screen */
+	margin-left: 20px;
+	position: relative;
+}
+
+main header .each_head figure {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+main header .each_head figure img {
+	width: 100%;
+	height: 100%;
+}
+
+main header .each_head .text {
+  font-family: 'lato', sans-serif;
+	position: relative;
+	z-index: 2;
+	width: calc(100% - 20px);
+	height: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 0;
+	
+}
+
+main header .each_head .text h4 {
+	width: 100%;
+	white-space: pre-wrap;
+	font-size: 55px;
+	color: white;
+}
+
+main header .each_head .text h2 {
+  font-family: 'lato', sans-serif;
+	width: 100%;
+		white-space: pre-wrap;
+	font-size: 30px;
+	color: white;
+}
+
+main header .each_head .text p {
+	font-size: 25px;
+	color: white;
+	width: 100%;
+	white-space: pre-wrap;
+}
+
+/* ////////////////////////////////////// */
+
+.each_feature {
+	width: 100%;
+	/*margin-right: 1%;*/
+	height: 300px;
+	border: 1px solid black;
+	margin-bottom: 10px;
+	/*float: left;*/
+}
+
+.each_feature figure {
+	width: 100%;
+	height: 60%;
+	overflow: hidden;
+}
+
+.each_feature figure img {
+	width: 100%;
+}
+
+.each_feature h4 {
+	font-size: 22px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.each_feature p {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	font-size: 13px;
+}
+
+/*  ///////////////////////////////////////////////////////// */
+
+
+.each_latest {
+	width: 100%;
+	height: 100px;
+	border: 1px solid black;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.each_latest figure {
+	width: calc(20% - 10px); /* meaning I want the width to be 20% of the parent minus 10 px (which is the padding) */
+	height: 100%;
+	overflow: hidden;
+	margin-right: 10px;
+	float: left;
+}
+
+.each_latest .text {
+	width: 80%;
+	float: left;
+}
+
+.each_latest .text h4 {
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.each_latest .text p {
+	font-size: 13px;
+}
